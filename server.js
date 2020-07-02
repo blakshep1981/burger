@@ -4,7 +4,7 @@ var mysql = require("mysql");
 
 var app = express();
 
-var PORT = process.env.PORT || 3306;
+var PORT = process.env.PORT || 8000;
 
 
 app.use(express.urlencoded({ extended: true }));
